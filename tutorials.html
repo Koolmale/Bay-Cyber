@@ -10,6 +10,53 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style> 
+			ul { 
+			  list-style-type: none; 
+			  margin: 0; 
+			  padding: 0; 
+			  width: 300px; 
+			  background-color: #f1f1f100; 
+			} 
+			li a { 
+			  display: block; 
+			  color: #000; 
+			  padding: 8px 16px; 
+			  text-decoration: none; 
+			} 
+		
+			/* Change the link color on hover */ 
+			li a:hover { 
+			  background-color: #ff7373; 
+			  color: #fff; 
+			} 
+			.icon { 
+			  margin-right: 10px; 
+			} 
+
+			.majorspecial{
+				position: relative;
+				bottom: 250px;
+				text-align: center;
+			}
+
+			.majorspecial ul{
+				margin-left: 35%;
+				padding: 2%;
+			}
+
+			#lbutton {
+				float: left;
+				margin-left: 30px;
+			}
+
+			#rbutton {
+				float: right;
+				margin-right: 30px;
+			}
+		}
+		</style> 
 	</head>
 	<body>
 
@@ -27,60 +74,61 @@
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Main -->
-			<section id="main" >
+		<section id="main" >
+	
+		<div>
+		<ul>
+			<li><a href="#" class="active">
+				Tutorials
+				</a>
+			</li>
+			<li><a href="#" class="active">
+				Pen Testing
+				</a>
+			</li>
+			<li><a href="#" >
+				Digital Forensics
+				</a>
+			</li>
+			<li><a href="#" >
+				OSINT
+				</a>
+			</li>
+			<li><a href="#" >
+				Networking
+				</a>
+			</li>	
+		</ul>
+	</div>
 				<div class="inner">
-					<header class="major special">
+					<header class="majorspecial">
 						<h1>Tutorials</h1>
-						<p>This website is aimed at delivering quality cyber-security training to make any newbie a pro!</p>
-					</header>
-					<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-					<p>We will adress the following topics - 
+						<h3>We teach you the basics of many cyber security topics</h3>
 						<ul>
-							<li>Linux & Windows</li>
-							<li>Networking & Wireshark</li>
+							<li>Linux and Windows</li>
+							<li>Networking and Wireshark</li>
 							<li>Cryptography</li>
 							<li>Digital Forensics</li>
-							<li>Web Application Exploitation</li>
+							<li>Web Application Exploit</li>
 							<li>Reverse Engineering</li>
 							<li>Scripting</li>
-							<li>Pentesting</li>
+							<li>Penetration Testing</li>
 							<li>Docker & Kubernetes</li>
 							<li>Cyber Tools</li>
 							<li>OSINT</li>
 						</ul>
-					</p>
+						<h3>Click on a Topic to the left to start learning!</h3>
+					</header>
 				</div>
 			</section>
 
-		<!-- Contact Form, I don't think We need it -->
-		<!--
-			<section id="footer">
-				<div class="inner">
-					<header>
-						<h2>Get in Touch</h2>
-					</header>
-					<form method="post" action="#">
-						<div class="field half first">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="alt" /></li>
-						</ul>
-					</form>
-					<div class="copyright">
-						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>
-					</div>
+
+			<section>
+				<div class="buttons">
+					<button id="rbutton"><a></a></button>
+					<button id="lbutton"><a></a></button>
 				</div>
-			</section>-->
+			</section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
