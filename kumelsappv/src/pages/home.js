@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import TweetElement from '../components/tweet'
+/* import Tweet from '../components/tweet' */
+import TweetEmbed from 'react-tweet-embed'
 
 class Home extends Component {
 
@@ -7,7 +8,7 @@ class Home extends Component {
         return(
             <div>
                 <div>
-                    <TweetElement tweetId = '1313659152653119488' />
+                <TweetEmbed id='771763270273294336' options={{theme: 'dark' }}/>
                 </div>
             </div>
         )

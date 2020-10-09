@@ -4,12 +4,10 @@ import React, { Component } from 'react'
 
 
 
-export class tweet extends Component {
+class tweet extends Component {
     render() {
         return (
-            <div className = {this.props.className}>
-               <TwitterTweetEmbed tweetId={'1313659152653119488'}/> 
-            </div>
+            <TwitterTweetEmbed tweetId='1314324255400628224' /> 
         )
     }
 }

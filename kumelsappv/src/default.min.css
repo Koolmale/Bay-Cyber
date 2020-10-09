@@ -8,7 +8,7 @@ body {
 }
 
 .navBar {
-    position:absolute;
+    position:relative;
     width:100%;
     display: block;
     background:#272727;
@@ -59,15 +59,6 @@ body {
 .navBar a.active {
     background-color:#2196f3;
     color:#fff
-}
-
-.navBar input [type=text] {
-    float:right;
-    padding:6px;
-    border:none;
-    margin-top:8px;
-    margin-right:16px;
-    font-size:17px
 }
 
 @media screen and (max-width:600px){ 
