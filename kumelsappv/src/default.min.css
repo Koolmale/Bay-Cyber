@@ -4,15 +4,15 @@ body {
     font-size:18px;
     color:#333;
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    background-color: #333;
 }
 
 .navBar {
     position:relative;
-    width:100%;
     display: block;
     background:#272727;
-    height: 20vh;
+    height: 15vh;
     font-family:VT323,monospace
 }
 
@@ -25,10 +25,10 @@ body {
 }
 
 .navBar img {
-    height: 14vh;
+    height: 10vh;
     float: right;
     margin-top: -10vh;
-    margin-right: 2vw;
+
 }
 
 .navBar nav,.navBar nav ul,.navBar nav ul li {
@@ -48,7 +48,7 @@ body {
     padding:14px 16px;
     text-decoration:none;
     font-size: 4vh;
-
+    margin-top: -5vh;
 }
 
 .navBar a:hover {
@@ -80,4 +80,25 @@ body {
         display:block; 
         width:100%;
         height:80px
+    }
+
+    #tweet {
+        display: flex;
+        float: right;
+        right: 1%;
+        top: 45%;
+        position: absolute;
+    }
+
+    #calendar {
+        position: absolute;
+        top: 13%;
+        right: 1%;
+        color:  rgb(187, 216, 240);
+        font-family:VT323,monospace;
+    }
+
+    .welcome {
+        color: rgb(187, 216, 240);
+        font-family:VT323,monospace;
     }
