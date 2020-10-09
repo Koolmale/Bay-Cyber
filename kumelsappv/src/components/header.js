@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../default.min.css';
-import SearchAppBar from './searchbar'
 
 
 class Header extends Component{
@@ -25,7 +24,7 @@ render() {
                 </div>
             </nav>
             
-            <img src= 'https://images.squarespace-cdn.com/content/5de94f9a41c14050e1f6c067/1585940450349-UWYG4E02423OCMUAWZSU/BCL+logo.png?format=1500w&content-type=image%2Fpng'/>
+            <img src= 'https://images.squarespace-cdn.com/content/5de94f9a41c14050e1f6c067/1585940450349-UWYG4E02423OCMUAWZSU/BCL+logo.png?format=1500w&content-type=image%2Fpng' alt='logo'/>
         </div>
    </header>
   );

@@ -12,7 +12,7 @@ body {
     width:100%;
     display: block;
     background:#272727;
-    height: 25vh;
+    height: 20vh;
     font-family:VT323,monospace
 }
 
@@ -25,9 +25,10 @@ body {
 }
 
 .navBar img {
-    height: 15vh;
+    height: 14vh;
     float: right;
-    margin-top: -7vh;
+    margin-top: -10vh;
+    margin-right: 2vw;
 }
 
 .navBar nav,.navBar nav ul,.navBar nav ul li {
