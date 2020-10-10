@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
- import TweetEmbed from '../components/tweet' ;
+ import Tweet from '../components/tweet' ;
 /* import TweetEmbed from 'react-tweet-embed' */
 import Header from '../components/header';
 import Calendar from '../components/calendar'
@@ -19,7 +19,7 @@ class Home extends Component {
                     </div>
 
                     <div className='child2'>
-                        <TweetEmbed />
+                        <Tweet />
                     </div>
                 </div>
             </div>
