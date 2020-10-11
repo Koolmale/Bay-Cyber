@@ -1,0 +1,65 @@
+import React, {Component} from 'react';
+
+class tutorialbody extends Component{
+render() {
+
+  return (
+   <body>
+       <div>
+       	<body>
+			<section id="main" >
+				<div class="inner">
+					<header class="major special">
+						<h1>Tutorials</h1>
+						<p>This website is aimed at delivering quality cyber-security training to make any newbie a pro!</p>
+					</header>
+					<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+
+				</div>
+			</section>
+
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>Get in Touch</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="alt" /></li>
+						</ul>
+					</form>
+					<div class="copyright">
+						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>
+					</div>
+				</div>
+			</section>-->
+
+
+			<div class="lefttable">
+				<table>
+
+				</table>
+
+			</div>
+
+	</body>
+
+
+       </div>
+   </body>
+  );
+        }
+}
+export default tutorialbody;
