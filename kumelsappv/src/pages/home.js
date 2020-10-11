@@ -11,7 +11,7 @@ class Home extends Component {
         return(
             
             <div>
-                <Header />
+                {/* <Header /> */}
                 <Body />
                 <div className='body'>
                     <div className='child1'>

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../default.min.css';
+import CalendarPg from '../pages/calendarpg'
 
 
 class Header extends Component{
@@ -18,6 +19,7 @@ render() {
                 <ul>
                     <li><a class ="active" href="Home.html">Home</a></li>
                     <li><a href="tutorial.html">Tutorials</a></li>
+                    <li><a href='./pages/calendarpg.js'>Calendar</a></li>
                     <li><a href="#About us">About Us</a></li>
                 </ul>
 
