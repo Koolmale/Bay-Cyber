@@ -1,4 +1,5 @@
 import React from 'react';
+import {Tutorialbody} from '../BodyComponents/tutorialbody.js';
 
 /* import TweetEmbed from 'react-tweet-embed' */
 
@@ -6,7 +7,8 @@ function Tutorial()
     {
         return(
             <div>
-                <h1>HI! Tutorial Pahge</h1>
+                <Tutorialbody/>
+
             </div>
 
 

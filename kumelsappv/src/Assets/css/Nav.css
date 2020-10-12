@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+.navbar-custom{
+
+    background:lightgreen;
+    height:100px;
+
+
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+    font-family:'VT323','monospace';
+    font-size:40px;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    font-family:'VT323','monospace';
+    font-size:30px;
+    float:right;
+
+}
