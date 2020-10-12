@@ -1,1 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
 
+
+
+/*Navigation Bar*/
+    #nav {
+    font-family:VT323,monospace;
+    color: rgb(187, 216, 240);
+    }

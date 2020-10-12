@@ -18,7 +18,7 @@ render() {
 				</div>
 			</section>
 
-			<section id="footer">
+			{/* <section id="footer">
 				<div class="inner">
 					<header>
 						<h2>Get in Touch</h2>
@@ -40,11 +40,8 @@ render() {
 							<li><input type="submit" value="Send Message" class="alt" /></li>
 						</ul>
 					</form>
-					<div class="copyright">
-						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>
-					</div>
 				</div>
-			</section>-->
+			</section> */}
 
 
 			<div class="lefttable">
