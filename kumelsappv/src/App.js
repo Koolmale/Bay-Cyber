@@ -1,25 +1,34 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './App.css';
-import './Assets/css/default.min.css';
 import Header from './components/HeaderComponent/header';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/Pages/home';
 import Tutorial from './components/Pages/tutorial';
+import Layout from './components/HeaderComponent/Layout';
+import {NavigationBar} from './components/HeaderComponent/Nav2';
+import {Nav,Navbar,Button,FormControl,Form,NavDropdown} from 'react-bootstrap';
 
-    function App()
-    {
-      return (
-          <Router>
-            <div className="App">
-                <Header/>
-                <Switch>
-                  <Route exact path ='/' component={Home}/>
-                  <Route exact path = '/tutorial' component={Tutorial}/>
-                </Switch>
+class App extends Component{
+        render(){
 
-            </div>
-         </Router>
-      );
+          return (
+            <>
+               <Header/>
+              <Layout>
+                   <Router>
+                        <div className="App">
+
+                            <Switch>
+                              <Route exact path ='/' component={Home}/>
+                              <Route exact path = '/tutorial' component={Tutorial}/>
+                            </Switch>
+
+                        </div>
+                   </Router>
+              </Layout>
+            </>
+          );
+        }
     }
 
 
