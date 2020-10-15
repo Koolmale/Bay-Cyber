@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Tweet from '../BodyComponents/tweet' ;
+import Calendar from '../BodyComponents/calendar'
+import Slideshow from '../BodyComponents/slideshow'
 
-/* import TweetEmbed from 'react-tweet-embed' */
 
 function Home()
     {
         return(
-            <div>
+            <div id='body'>
+                <div>
+                    <Slideshow/>
+                </div>
+                <div>
+                    <Calendar id='calendar'/>
+                </div>
 
-                <h1>HI! Home Pahge</h1>
+                <div>
+                    <Tweet id='tweet'/>
+                </div>
             </div>
-
-
         );
     }
 

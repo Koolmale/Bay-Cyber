@@ -1,62 +1,27 @@
 import React, {Component} from 'react';
+import {Nav} from 'react-bootstrap';
 
-class tutorialbody extends Component{
-render() {
-
-  return (
-   <body>
-       <div>
-       	<body>
-			<section id="main" >
-				<div class="inner">
-					<header class="major special">
-						<h1>Tutorials</h1>
-						<p>This website is aimed at delivering quality cyber-security training to make any newbie a pro!</p>
-					</header>
-					<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-
-				</div>
-			</section>
-
-			{/* <section id="footer">
-				<div class="inner">
-					<header>
-						<h2>Get in Touch</h2>
-					</header>
-					<form method="post" action="#">
-						<div class="field half first">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="alt" /></li>
-						</ul>
-					</form>
-				</div>
-			</section> */}
+export const Tutorialbody = () => (
 
 
-			<div class="lefttable">
-				<table>
+    <>
 
-				</table>
+      <div class="hero-unit">
+          <h1>Heading</h1>
+          <p>Tagline</p>
+          <p>
+            <a class="btn btn-primary btn-large">
+              Learn more
+            </a>
+          </p>
+      </div>
+      <ul class="nav nav-list">
+          <li class="nav-header">List header</li>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Library</a></li>
 
-			</div>
+      </ul>
+    </>
+   )
 
-	</body>
-
-
-       </div>
-   </body>
-  );
-        }
-}
-export default tutorialbody;
+export default Tutorialbody;

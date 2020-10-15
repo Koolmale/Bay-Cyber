@@ -7,6 +7,7 @@ import Tutorial from './components/Pages/tutorial';
 import Layout from './components/HeaderComponent/Layout';
 import {NavigationBar} from './components/HeaderComponent/Nav2';
 import {Nav,Navbar,Button,FormControl,Form,NavDropdown} from 'react-bootstrap';
+import Calendarpg from './components/Pages/calendarpg'
 
 class App extends Component{
         render(){
@@ -20,7 +21,9 @@ class App extends Component{
 
                             <Switch>
                               <Route exact path ='/' component={Home}/>
+                              <Route exact path = '/home' component={Home}/>
                               <Route exact path = '/tutorial' component={Tutorial}/>
+                              <Route exact path ='/calendar' component={Calendarpg}/>
                             </Switch>
 
                         </div>
