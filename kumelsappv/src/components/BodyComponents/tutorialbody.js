@@ -1,25 +1,30 @@
 import React, {Component} from 'react';
 import {Nav} from 'react-bootstrap';
+import {Tutoriallist} from './tutoriallist'
+import '../../Assets/css/tutbody.css';
+import baccc from '../../Assets/baccc.png';
+
 export const Tutorialbody = () => (
 
 
     <>
 
       <div class="hero-unit">
-          <h1>Heading</h1>
-          <p>Tagline</p>
+          <h1>Welcome</h1>
+          <p>You made it ! Tutorials for days!/></p>
           <p>
+            <img id="yay" src={require('../../Assets/baccc.png')}></img>
             <a class="btn btn-primary btn-large">
               Learn more
             </a>
           </p>
-      </div>
-      <ul class="nav nav-list">
-          <li class="nav-header">List header</li>
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Library</a></li>
 
-      </ul>
+
+      </div>
+
+      <Tutoriallist/>
+
+
     </>
    )
 

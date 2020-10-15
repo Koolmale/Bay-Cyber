@@ -2,7 +2,7 @@
 
 .navbar-custom{
 
-    background:lightgreen;
+    background:lightgrey;
     height:100px;
 
 
@@ -10,14 +10,20 @@
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
+    color: black;
     font-family:'VT323','monospace';
     font-size:40px;
 }
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: black;
     font-family:'VT323','monospace';
     font-size:30px;
     float:right;
+
+}
+
+#headerimg{
+    width:50px;
+
 
 }
