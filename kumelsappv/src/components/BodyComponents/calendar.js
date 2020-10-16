@@ -6,7 +6,7 @@ class calendar extends Component {
         return(
             <div id='calendar'>
             <h1>Upcoming Events!</h1>
-            <iframe src="https://calendar.google.com/calendar/embed?src=wastc.org_i4bgfism9oafuf3b05sh57ofng%40group.calendar.google.com&amp;mode=AGENDA" style={{height:200, width:300}}>
+            <iframe src="https://calendar.google.com/calendar/embed?src=wastc.org_i4bgfism9oafuf3b05sh57ofng%40group.calendar.google.com&amp;mode=AGENDA" style={{height:200, width:300, borderRadius:"10px"}}>
             </iframe>
             </div>
         )
