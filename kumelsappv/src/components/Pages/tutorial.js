@@ -7,7 +7,6 @@ function Tutorial()
     {
         return(
             <div>
-                <h1>HI! Tutorial Pahge</h1>
                 <TutorialBody />
             </div>
 

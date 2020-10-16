@@ -6,14 +6,20 @@ body {
     display: flex;
     float: right;
     right: 1%;
-    top: 45%;
+    top: 48%;
     position: absolute;
 }
 
 #calendar {
     position: absolute;
-    top: 10%;
+    top: 12%;
     right: 1%;
     color:  rgb(187, 216, 240);
     font-family:VT323,monospace;
+}
+
+#footer {
+   position: fixed;
+   bottom: 0;
+
 }

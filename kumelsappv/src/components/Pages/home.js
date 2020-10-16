@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Tweet from '../BodyComponents/tweet' ;
 import Calendar from '../BodyComponents/calendar'
 import Slideshow from '../BodyComponents/slideshow'
+import Footer from '../FooterComponent/Footer'
 
 
 function Home()
@@ -17,6 +18,9 @@ function Home()
 
                 <div>
                     <Tweet id='tweet'/>
+                </div>
+                <div>
+                    <Footer id='footer'/>
                 </div>
             </div>
         );

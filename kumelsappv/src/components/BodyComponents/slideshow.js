@@ -3,12 +3,6 @@ import { Fade } from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css'
 import '../../Assets/css/slideshow.css'
 
-const fadeImages = [
-  "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-  "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-  "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
-];
-
 export default function App() {
   return (
     <div className='text'>
@@ -16,14 +10,28 @@ export default function App() {
     <div className="slide-container" id='slide'>
       <Fade>
         <div className="each-fade">
-          <img src={require('../HeaderComponent/img1.png')} className='img'/>
-          <h1>slide 1</h1>
+          <img src={require('../images/img1.jpg')} className='img'/>
         </div>
         <div className="each-fade">
-          <img src={fadeImages[1]} className='img'/>
+          <img src={require('../images/img2.jpg')} className='img'/>
         </div>
         <div className="each-fade">
-          <img src={fadeImages[2]} className='img'/>
+          <img src={require('../images/img3.jpg')} className='img'/>
+        </div>
+        <div className="each-fade">
+          <img src={require('../images/img4.jpg')} className='img'/>
+        </div>
+        <div className="each-fade">
+          <img src={require('../images/img5.jpg')} className='img'/>
+        </div>
+        <div className="each-fade">
+          <img src={require('../images/img6.jpg')} className='img'/>
+        </div>
+        <div className="each-fade">
+          <img src={require('../images/img7.jpg')} className='img'/>
+        </div>
+        <div className="each-fade">
+          <img src={require('../images/img8.jpg')} className='img'/>
         </div>
       </Fade>
     </div>
