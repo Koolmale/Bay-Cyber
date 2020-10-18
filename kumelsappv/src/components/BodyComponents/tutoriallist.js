@@ -9,13 +9,13 @@ export const Tutoriallist = () => (
             <i class="fa fa-home"></i> Linux
         </a>
         <a href="#" class="list-group-item list-group-item-action">
-            <i class="fa fa-camera"></i> Networking <span class="badge badge-pill badge-primary pull-right">145</span>
+            <i class="fa fa-camera"></i> Networking <span class="badge badge-pill badge-primary pull-right"></span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
-            <i class="fa fa-music"></i> Something Else<span class="badge badge-pill badge-primary pull-right">50</span>
+            <i class="fa fa-music"></i> Something Else<span class="badge badge-pill badge-primary pull-right"></span>
         </a>
         <a href="#" class="list-group-item list-group-item-action">
-            <i class="fa fa-film"></i> Forensics <span class="badge badge-pill badge-primary pull-right">8</span>
+            <i class="fa fa-film"></i> Forensics <span class="badge badge-pill badge-primary pull-right"></span>
         </a>
     </div>
 

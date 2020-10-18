@@ -13,7 +13,22 @@
 }
 
 #yay{
+    position:relative;
+    width:400px;
+    left:-110px;
 
-    width:180px;
+}
+
+.embed-responsive-16by9{
+    top:400px;
+    position:relative;
+    width:500px;
+    float:right;
+    left:-120px;
+}
+#hed {
+    top:400px;
+    position:relative;
+    left:100px;
 
 }
