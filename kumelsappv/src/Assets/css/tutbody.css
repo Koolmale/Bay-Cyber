@@ -3,11 +3,11 @@
 
 .hero-unit {
 
-    position:relative;
+    position:absolute;
     width:20vw;
-    top:100px;
+    top:30vh;
+    left:40vw;
     float:right;
-    left:-465px;
     overflow:hidden;
 
 
@@ -21,11 +21,12 @@
 }
 
 .embed-responsive-16by9{
-    top:90vh;
-    position:relative;
+    top:120vh;
+    position:absolute;
     width:50vw;
     float:right;
     overflow:hidden;
+    right:25vw;
 
 }
 #hed {

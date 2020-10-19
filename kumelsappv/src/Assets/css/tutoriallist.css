@@ -1,10 +1,9 @@
 #accordion{
-    width:200px;
-    position:relative;
-    top:80px;
-    right:60px;
-    float:left;
+    width:20vw;
+    position:absolute;
+    top:50vh;
+    right:80vw;
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden;
+ }
 
-}
