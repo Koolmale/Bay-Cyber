@@ -2,23 +2,55 @@ import React, {Component} from 'react';
 import {Nav,Button} from 'react-bootstrap';
 import '../../Assets/css/tutoriallist.css';
 
+
 export const Tutoriallist = () => (
 
-    <div class="list-group">
-        <a href="/Linux" class="list-group-item list-group-item-action active">
-            <i class="fa fa-home"></i> Linux
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
-            <i class="fa fa-camera"></i> Networking <span class="badge badge-pill badge-primary pull-right"></span>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
-            <i class="fa fa-music"></i> Something Else<span class="badge badge-pill badge-primary pull-right"></span>
-        </a>
-        <a href="#" class="list-group-item list-group-item-action">
-            <i class="fa fa-film"></i> Forensics <span class="badge badge-pill badge-primary pull-right"></span>
-        </a>
-    </div>
+   <div id="accordion">
 
-   )
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Linux
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            <a href="/Linux">Basic Commands</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Windows
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Basic Commands
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            Pentesting
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+                What is Pentesting?
+
+          </div>
+        </div>
+      </div>
+
+</div>
+)
+
+
 
 export default Tutoriallist;
+

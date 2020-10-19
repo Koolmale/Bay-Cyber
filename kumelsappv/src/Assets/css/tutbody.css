@@ -4,31 +4,31 @@
 .hero-unit {
 
     position:relative;
-    width:150px;
+    width:20vw;
     top:100px;
     float:right;
     left:-465px;
+    overflow:hidden;
+
 
 
 }
 
 #yay{
     position:relative;
-    width:400px;
-    left:-110px;
+    width:30vw;
 
 }
 
 .embed-responsive-16by9{
-    top:400px;
+    top:90vh;
     position:relative;
-    width:500px;
+    width:50vw;
     float:right;
-    left:-120px;
+    overflow:hidden;
+
 }
 #hed {
-    top:400px;
+    top:90vh;
     position:relative;
-    left:100px;
-
 }

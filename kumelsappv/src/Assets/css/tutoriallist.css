@@ -1,9 +1,10 @@
-.list-group{
+#accordion{
+    width:200px;
     position:relative;
-    width:140px;
-    left:-87px;
     top:80px;
+    right:60px;
+    float:left;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
 
 }
-
-
