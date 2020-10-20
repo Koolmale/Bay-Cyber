@@ -1,0 +1,39 @@
+.hero-unit {
+    position:absolute;
+    top:10vh;
+    left: 30vw;
+    float:right;
+}
+
+#welcome {
+    font-size: 3rem;
+}
+
+#yay{
+    position: absolute;;
+    width:400px;
+    left:40vw;
+
+}
+
+.embed-responsive-16by9{
+    top:35vh;
+    position: absolute;;
+    width:50vw;
+    left:30vw;
+}
+#hed {
+    top:30vh;
+    position: absolute;;
+    left:40vw;
+
+}
+
+.body {
+    color:  rgb(187, 216, 240);
+    font-family:VT323,monospace;
+}
+
+body {
+    background-color: rgb(49, 65, 82);
+}

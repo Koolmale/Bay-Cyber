@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap');
+
 body {
     background-color: rgb(49, 65, 82);
+    font-family: 'Roboto', sans-serif;
 }
 
 #tweet {
@@ -15,11 +18,14 @@ body {
     top: 12%;
     right: 1%;
     color:  rgb(187, 216, 240);
-    font-family:VT323,monospace;
 }
 
 #footer {
    position: fixed;
    bottom: 0;
 
+}
+
+#nav {
+    width: 100%;
 }

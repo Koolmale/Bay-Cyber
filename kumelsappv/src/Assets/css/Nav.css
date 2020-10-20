@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap');
 
 .navbar-custom{
     background:rgb(33, 43, 51);
     height:9vh;
+    width: 100%;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgb(187, 216, 240);
-    font-family:'VT323','monospace';
+    font-family: 'Oxygen', sans-serif;
     font-size:40px;
 }
 .navbar-custom .navbar-nav .nav-link {
     color:rgb(187, 216, 240);
-    font-family:'VT323','monospace';
+    font-family: 'Roboto', sans-serif;
     font-size:30px;
     float:right;
 

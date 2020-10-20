@@ -3,11 +3,14 @@ import Tweet from '../BodyComponents/tweet' ;
 import Calendar from '../BodyComponents/calendar'
 import Slideshow from '../BodyComponents/slideshow'
 import Footer from '../FooterComponent/Footer'
+import '../../Assets/css/home.css'
+
 
 
 function Home()
     {
         return(
+            <div>
             <div id='body'>
                 <div>
                     <Slideshow/>
@@ -22,6 +25,7 @@ function Home()
                 <div>
                     <Footer id='footer'/>
                 </div>
+            </div>
             </div>
         );
     }

@@ -1,5 +1,8 @@
 @import "_config.scss";
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@font-face {
+  font-family: 'Oxygen';
+  src: url(../Oxygen-Regular.ttf);
+}
 
 header{
     position:relative;
@@ -7,7 +10,7 @@ header{
     display:flex;
     background:$lightGrey;
     height:120px;
-    font-family:'VT323', monospace;
+    font-family: 'Oxygen', sans-serif;
     h1{
         padding:10px;
         float:center;
