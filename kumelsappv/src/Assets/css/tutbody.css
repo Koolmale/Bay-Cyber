@@ -5,8 +5,8 @@
 
     position:absolute;
     width:20vw;
-    top:30vh;
-    left:40vw;
+    top:40vh;
+    right:35vw;
     float:right;
     overflow:hidden;
 
@@ -21,15 +21,15 @@
 }
 
 .embed-responsive-16by9{
-    top:120vh;
+    top:125vh;
     position:absolute;
     width:50vw;
-    float:right;
     overflow:hidden;
-    right:25vw;
+    left:30vw;
 
 }
 #hed {
-    top:90vh;
-    position:relative;
+    top:115vh;
+    right:25vw;
+    position:absolute;
 }

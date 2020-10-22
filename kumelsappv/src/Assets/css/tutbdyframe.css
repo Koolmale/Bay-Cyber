@@ -1,6 +1,29 @@
-.container {
+.thebest{
+    position:absolute;
     top:40vh;
-    width:60vw;
-    left:10vw;
+    width:50vw;
+    left:30vw;
+
+    }.thebest2{
+    position:absolute;
+    top:70vh;
+    width:50vw;
+    left:30vw;
 
     }
+
+
+    .thebest3{
+    position:absolute;
+    top:100vh;
+    width:50vw;
+    left:30vw;
+
+    }
+
+h1{
+    position:absolute;
+    left:45vw;
+    top:20vh;
+
+}

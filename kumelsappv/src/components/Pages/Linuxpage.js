@@ -11,10 +11,7 @@ function Linux()
         return(
 
             <>
-                <div>
 
-                    <h1>Linux Tutorials!</h1>
-                </div>
 
                 <Tutoriallist/>
                 <Tutpgbdyframe/>
