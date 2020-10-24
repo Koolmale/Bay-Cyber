@@ -15,7 +15,10 @@ export const Tutoriallist = () => (
         </div>
         <div id="collapseOne" class="collapse show" data-parent="#accordion">
           <div class="card-body">
-            <a href="/Linux">Basic Commands</a>
+            <a href="/LinuxIntro">Linux Introduction</a>
+          </div>
+          <div class="card-body">
+            <a href="/BasicCommands">Basic Commands</a>
           </div>
         </div>
       </div>
