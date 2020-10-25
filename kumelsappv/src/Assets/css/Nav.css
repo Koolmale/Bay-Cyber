@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+html {
+    font-size: 16px;
+}
+
 .navbar-custom{
     background:rgb(33, 43, 51);
     height:9vh;
@@ -9,17 +13,17 @@
 .navbar-custom .navbar-text {
     color: rgb(187, 216, 240);
     font-family:'VT323','monospace';
-    font-size:40px;
+    font-size:2.5rem;
 }
 .navbar-custom .navbar-nav .nav-link {
     color:rgb(187, 216, 240);
     font-family:'VT323','monospace';
-    font-size:30px;
+    font-size:2rem;
     float:right;
 
 }
 
 #logo {
-    width: 4vw;
+    width: 4rem;
     vertical-align: middle;
 }
