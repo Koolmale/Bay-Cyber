@@ -4,6 +4,7 @@ import Header from './components/HeaderComponent/header';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/Pages/home';
 import Tutorial from './components/Pages/tutorial';
+import Linux from './components/Pages/Linuxpage';
 import Layout from './components/HeaderComponent/Layout';
 import {NavigationBar} from './components/HeaderComponent/Nav2';
 import {Nav,Navbar,Button,FormControl,Form,NavDropdown} from 'react-bootstrap';
@@ -28,6 +29,7 @@ class App extends Component{
                               <Route exact path = '/BasicCommands' component={BasicCommands}/>
                               <Route exact path = '/LinuxIntro' component={Intro}/>
                               <Route exact path ='/calendar' component={Calendarpg}/>
+                              <Route exact path = '/Linux' component={Linux}/>
                             </Switch>
 
                         </div>

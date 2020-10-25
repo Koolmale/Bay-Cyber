@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .hero-unit {
 
     position:absolute;
@@ -7,17 +8,35 @@
     float:right;
     overflow:hidden;
 
+=======
+
+
+
+.hero-unit {
+
+    position:relative;
+    width:150px;
+    top:100px;
+    float:right;
+    left:-465px;
+>>>>>>> 27e27c3035c8e8996529f779a02fdc81838f4512
 
 
 }
 
 #yay{
     position:relative;
+<<<<<<< HEAD
     width:30vw;
+=======
+    width:400px;
+    left:-110px;
+>>>>>>> 27e27c3035c8e8996529f779a02fdc81838f4512
 
 }
 
 .embed-responsive-16by9{
+<<<<<<< HEAD
     top:125vh;
     position:absolute;
     width:50vw;
@@ -29,4 +48,17 @@
     top:115vh;
     right:25vw;
     position:absolute;
+=======
+    top:400px;
+    position:relative;
+    width:500px;
+    float:right;
+    left:-120px;
+}
+#hed {
+    top:400px;
+    position:relative;
+    left:100px;
+
+>>>>>>> 27e27c3035c8e8996529f779a02fdc81838f4512
 }
