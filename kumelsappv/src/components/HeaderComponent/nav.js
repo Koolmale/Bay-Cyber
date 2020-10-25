@@ -8,13 +8,14 @@ import '../../Assets/css/Nav.css';
 export const NavigationBar = () => (
 
         <Navbar className="navbar navbar-custom" expand="lg">
-          <Navbar.Brand href="#home"><img src={require('../HeaderComponent/logo.png')} id='logo' />Bay Cyber Training</Navbar.Brand>
+          <Navbar.Brand href="#home"><img src={require('../HeaderComponent/logo.png')} id='logo' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="tutorial">Tutorials</Nav.Link>
-              <Nav.Link href="calendar">Calendar</Nav.Link>
+            <Nav.Link href="/home" id='main'>Bay Cyber Training</Nav.Link>
+              <Nav.Link href="/home" className='others'>Home</Nav.Link>
+              <Nav.Link href="tutorial" className='others'>Tutorials</Nav.Link>
+              <Nav.Link href="calendar" className='others'>Calendar</Nav.Link>
             </Nav>
             <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2" />

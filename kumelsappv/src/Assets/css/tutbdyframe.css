@@ -1,0 +1,37 @@
+.thebest{
+    position:absolute;
+    top:40vh;
+    width:50vw;
+    left:30vw;
+
+    }.thebest2{
+    position:absolute;
+    top:70vh;
+    width:50vw;
+    left:30vw;
+
+    }
+
+
+    .thebest3{
+    position:absolute;
+    top:160vh;
+    width:50vw;
+    left:30vw;
+
+    }
+
+h1{
+    position:absolute;
+    left:45vw;
+    top:20vh;
+
+}
+
+#terminal{
+    top:90vh;
+    position:absolute;
+    right:45vw;
+
+
+}

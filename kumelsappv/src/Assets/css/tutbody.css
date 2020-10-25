@@ -1,0 +1,32 @@
+.hero-unit {
+
+    position:absolute;
+    width:20vw;
+    top:40vh;
+    right:35vw;
+    float:right;
+    overflow:hidden;
+
+
+
+}
+
+#yay{
+    position:relative;
+    width:30vw;
+
+}
+
+.embed-responsive-16by9{
+    top:125vh;
+    position:absolute;
+    width:50vw;
+    overflow:hidden;
+    left:30vw;
+
+}
+#hed {
+    top:115vh;
+    right:25vw;
+    position:absolute;
+}

@@ -8,6 +8,8 @@ import Layout from './components/HeaderComponent/Layout';
 import {NavigationBar} from './components/HeaderComponent/Nav2';
 import {Nav,Navbar,Button,FormControl,Form,NavDropdown} from 'react-bootstrap';
 import Calendarpg from './components/Pages/calendarpg'
+import BasicCommands from './components/Pages/Linux/BasicCommands';
+import Intro from './components/Pages/Linux/Intro';
 
 class App extends Component{
         render(){
@@ -23,6 +25,8 @@ class App extends Component{
                               <Route exact path ='/' component={Home}/>
                               <Route exact path = '/home' component={Home}/>
                               <Route exact path = '/tutorial' component={Tutorial}/>
+                              <Route exact path = '/BasicCommands' component={BasicCommands}/>
+                              <Route exact path = '/LinuxIntro' component={Intro}/>
                               <Route exact path ='/calendar' component={Calendarpg}/>
                             </Switch>
 
