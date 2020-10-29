@@ -1,0 +1,48 @@
+html {
+    font-size: 16px;
+}
+
+h1 {
+    color: rgb(187, 216, 240);
+    position: relative;
+    top: 2rem;
+    left: 25rem;
+    width: 30rem;
+}
+
+.p {
+    color: rgb(187, 216, 240);
+    position: relative;
+    top: 6rem;
+    left: 10rem;
+    font-size: 1.5rem;
+    width: 60rem;
+}
+
+h2 {
+    position: relative;
+    top: 10rem;
+    font-size: 3rem;
+    color:rgb(187, 216, 240);
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 2px solid rgb(187, 216, 240);
+    position:relative;
+    top: 0rem;
+    left: 0rem;
+    color: rgb(187, 216, 240);
+    bottom: 3rem;
+  }
+
+  th, td {
+    padding: 15px;
+  }
+
+  table {
+    position:relative;
+    top: 10rem;
+    left: 10rem;  
+    margin-bottom: 2rem;
+  }

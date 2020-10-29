@@ -3,7 +3,7 @@ import Tweet from '../BodyComponents/tweet' ;
 import Calendar from '../BodyComponents/calendar'
 import Slideshow from '../BodyComponents/slideshow'
 import Footer from '../FooterComponent/Footer'
-
+import '../../Assets/css/home.css'
 
 function Home()
     {

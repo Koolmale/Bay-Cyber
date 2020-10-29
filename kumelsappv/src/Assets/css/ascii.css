@@ -1,0 +1,26 @@
+html {
+    font-size: 16px;
+}
+.img3 {
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+#head {
+    position: relative;
+    margin-top: -10%;
+}
+
+#body {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 80%;
+    font-size: 1.5rem;
+    color: rgb(187, 216, 240);
+}
+
+#body2 {
+    font-size: 1.2rem;
+    color: rgb(187, 216, 240);
+}

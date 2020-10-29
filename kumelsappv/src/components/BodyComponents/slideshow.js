@@ -5,8 +5,7 @@ import '../../Assets/css/slideshow.css'
 
 export default function App() {
   return (
-    <div className='text'>
-      <h2>Welcome! This is the Bay Cyber Training Site. Head on over to our tutorials page to learn more!</h2>
+    <>
     <div className="slide-container" id='slide'>
       <Fade>
         <div className="each-fade">
@@ -35,6 +34,7 @@ export default function App() {
         </div>
       </Fade>
     </div>
-    </div>
+    
+    </>
   );
 }

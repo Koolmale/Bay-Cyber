@@ -10,7 +10,9 @@ import {NavigationBar} from './components/HeaderComponent/Nav2';
 import {Nav,Navbar,Button,FormControl,Form,NavDropdown} from 'react-bootstrap';
 import Calendarpg from './components/Pages/calendarpg'
 import BasicCommands from './components/Pages/Linux/BasicCommands';
-import Intro from './components/Pages/Linux/Intro';
+import IntroCrypto from './components/Pages/Crypto/Introcrypto';
+import Ascii from './components/Pages/Crypto/ascii'
+import Msub from './components/Pages/Crypto/msub'
 
 class App extends Component{
         render(){
@@ -27,9 +29,12 @@ class App extends Component{
                               <Route exact path = '/home' component={Home}/>
                               <Route exact path = '/tutorial' component={Tutorial}/>
                               <Route exact path = '/BasicCommands' component={BasicCommands}/>
-                              <Route exact path = '/LinuxIntro' component={Intro}/>
+                              {/* <Route exact path = '/LinuxIntro' component={Intro}/> */}
                               <Route exact path ='/calendar' component={Calendarpg}/>
                               <Route exact path = '/Linux' component={Linux}/>
+                              <Route exact path ='/IntroCrypto' component={IntroCrypto}/>
+                              <Route exact path ='/ascii' component={Ascii}/>
+                              <Route exact pathh ='/msub' component={Msub}/>
                             </Switch>
 
                         </div>

@@ -1,0 +1,7 @@
+#tweet {
+    display: flex;
+    float: right;
+    left: 18%;
+    margin-top: 5%;
+    position: relative;
+}

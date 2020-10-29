@@ -1,7 +1,7 @@
 .slide-container {
-  position: absolute;
-  top: 25%;
-  right: 25%;
+  position: relative;
+  margin-top: 10%;
+  right: 20%;
   width: 70vw;
   border-radius: 10px;
 }
@@ -9,11 +9,4 @@
 .img {
   height: 65vh;
   width: 65vw;
-}
-
-.text {
-  width: 70%;
-  text-align: center;
-  margin-top: 2%;
-  color:  rgb(187, 216, 240);
 }

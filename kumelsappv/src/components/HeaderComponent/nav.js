@@ -8,11 +8,7 @@ import '../../Assets/css/Nav.css';
 export const NavigationBar = () => (
 
         <Navbar className="navbar navbar-custom" expand="lg">
-<<<<<<< HEAD
-          <Navbar.Brand href="#home"><img src={require('../HeaderComponent/logo.png')} id='logo' /></Navbar.Brand>
-=======
-          <Navbar.Brand href="#home"><img src={require('../HeaderComponent/favicon.ico')} id='logo' />Bay Cyber Training</Navbar.Brand>
->>>>>>> 27e27c3035c8e8996529f779a02fdc81838f4512
+          <Navbar.Brand href="#home"><img src={require('../HeaderComponent/favicon.ico')} id='logo' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

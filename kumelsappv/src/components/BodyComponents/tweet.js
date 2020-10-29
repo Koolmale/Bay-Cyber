@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {TwitterTimelineEmbed} from 'react-twitter-embed';
-import '../../Assets/css/home.css'
+import '../../Assets/css/tweet.css'
 
 class tweet extends Component {
     render() {

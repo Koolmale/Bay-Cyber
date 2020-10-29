@@ -4,26 +4,11 @@ html {
 
 body {
     background-color: rgb(49, 65, 82);
+    display: block;
 }
 
-#tweet {
-    display: flex;
-    float: right;
-    right: 1rem;
-    top: 25rem;
-    position: absolute;
-}
 
-#calendar {
-    position: absolute;
-    top: 6rem;
-    right: 1rem;
-    color:  rgb(187, 216, 240);
-    font-family:VT323,monospace;
-}
 
-#footer {
-   position: fixed;
-   bottom: 0;
 
-}
+
+
