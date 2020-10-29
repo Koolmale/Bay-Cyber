@@ -20,6 +20,11 @@ export const Tutoriallist = () => (
           <div class="card-body">
             <a href="/BasicCommands">Basic Commands</a>
           </div>
+
+          <div class="card-body">
+            <a href="/LinuxInstall">Installation</a>
+          </div>
+
         </div>
       </div>
 

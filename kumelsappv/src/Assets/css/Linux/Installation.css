@@ -1,0 +1,90 @@
+#first{
+    font-size:4vw;
+    top:20vh;
+    position:absolute;
+    right:32vw;
+
+
+}
+
+
+#second {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  font-size:8vh;
+  top:50vh;
+  position:absolute;
+  right:32vw;
+}
+#secondimg {
+    height:30vh;
+    width:30vw;
+    top:30vh;
+    position:absolute;
+    align:center;
+    right:33vw;
+
+}
+
+.intro {
+  border: 1px solid gray;
+  padding: 8px;
+  top:70vh;
+  position:absolute;
+  width:50vw;
+  right:25vw;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  top:-12vh;
+  width:30vw;
+  left:13vw;
+  position:absolute;
+
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+
+.requirments {
+  border: 1px solid gray;
+  padding: 8px;
+  top:110vh;
+  position:absolute;
+  width:50vw;
+  right:25vw;
+}
+
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  top:-12vh;
+  width:30vw;
+  left:13vw;
+  position:absolute;
+
+}
+
+ul{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+
+#footer{
+top:200vh;
+font-size: 5vw;
+position:absolute;
+
+}
